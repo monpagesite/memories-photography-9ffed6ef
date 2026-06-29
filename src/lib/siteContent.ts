@@ -44,6 +44,86 @@ export const siteContent = {
     ]
   },
 
+  liveGalleryDemo: {
+    headline: "Live Gallery Demo",
+    subtext: "Watch how photos appear in real-time during an event",
+    badge: "Simulated Live Event",
+    photos: [
+      {
+        image: "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80",
+        alt: "Couple dancing at wedding reception",
+        uploadTime: "Just now",
+        status: "new"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=800&q=80",
+        alt: "Wedding toast with champagne glasses",
+        uploadTime: "2 min ago",
+        status: "recent"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=800&q=80",
+        alt: "Birthday cake with candles",
+        uploadTime: "4 min ago",
+        status: "recent"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=800&q=80",
+        alt: "Wedding ceremony moment",
+        uploadTime: "7 min ago",
+        status: "uploaded"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=800&q=80",
+        alt: "Outdoor wedding setup",
+        uploadTime: "9 min ago",
+        status: "uploaded"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80",
+        alt: "Corporate event networking",
+        uploadTime: "12 min ago",
+        status: "uploaded"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?auto=format&fit=crop&w=800&q=80",
+        alt: "Wedding reception celebration",
+        uploadTime: "15 min ago",
+        status: "uploaded"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?auto=format&fit=crop&w=800&q=80",
+        alt: "Birthday party decorations",
+        uploadTime: "18 min ago",
+        status: "uploaded"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?auto=format&fit=crop&w=800&q=80",
+        alt: "Anniversary celebration dinner",
+        uploadTime: "21 min ago",
+        status: "uploaded"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1587825140708-dfaf72ae4b04?auto=format&fit=crop&w=800&q=80",
+        alt: "Corporate conference presentation",
+        uploadTime: "24 min ago",
+        status: "uploaded"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1505236858219-8359eb29e329?auto=format&fit=crop&w=800&q=80",
+        alt: "Holiday party celebration",
+        uploadTime: "27 min ago",
+        status: "uploaded"
+      },
+      {
+        image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&q=80",
+        alt: "Event guests mingling",
+        uploadTime: "30 min ago",
+        status: "uploaded"
+      }
+    ]
+  },
+
   gallery: {
     headline: "Recent events",
     subtext: "Live galleries from real celebrations",
@@ -209,27 +289,8 @@ export const siteContent = {
     instagramPreview: [
       "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=400&q=80",
       "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=400&q=80"
+      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=400&q=80"
     ]
-  },
-
-  footer: {
-    tagline: "Real-time event photography for moments that matter",
-    navLinks: [
-      { label: "Work", href: "#work" },
-      { label: "How It Works", href: "#how-it-works" },
-      { label: "Services", href: "#services" },
-      { label: "About", href: "#about" },
-      { label: "Contact", href: "#contact" }
-    ],
-    socialLinks: [
-      { platform: "Instagram", url: "https://instagram.com/memories.live", icon: "Instagram" },
-      { platform: "Facebook", url: "https://facebook.com/memoriesphotography", icon: "Facebook" },
-      { platform: "Twitter", url: "https://twitter.com/memorieslive", icon: "Twitter" }
-    ],
-    copyright: "© 2024 Memories Photography. All rights reserved."
   }
-} as const;
-
-export type SiteContent = typeof siteContent;
+};

@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from './components/Header';
 import { HeroSection } from './components/HeroSection';
 import { HowItWorksSection } from './components/HowItWorksSection';
+import { LiveGalleryDemo } from './components/LiveGalleryDemo';
 import { RecentEventsSection } from './components/RecentEventsSection';
 import { ServicesBookingSection } from './components/ServicesBookingSection';
 import { AboutSection } from './components/AboutSection';
@@ -15,6 +16,7 @@ function App() {
       <main>
         <HeroSection />
         <HowItWorksSection />
+        <LiveGalleryDemo />
         <RecentEventsSection />
         <ServicesBookingSection />
         <AboutSection />

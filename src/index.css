@@ -66,12 +66,12 @@
 
   /* Button base styles */
   button {
-    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2;
+    @apply focus-visible:outline-none focus-visible:ring-2 ring-accent ring-offset-2;
   }
 
   /* Link base styles */
   a {
-    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 rounded-sm;
+    @apply focus-visible:outline-none focus-visible:ring-2 ring-accent ring-offset-2 rounded-sm;
   }
 }
 
@@ -125,4 +125,20 @@ img[loading] {
 
 img:not([loading]) {
   @apply opacity-100;
+}
+
+/* Custom animations for live gallery */
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px) scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.animate-slide-in-up {
+  animation: slideInUp 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }

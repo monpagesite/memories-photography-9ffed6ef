@@ -68,8 +68,8 @@ export const HeroSection: React.FC = () => {
 
             <div data-reveal className="reveal-element flex flex-col sm:flex-row gap-4">
               <a
-                href="#work"
-                onClick={(e) => handleNavClick(e, '#work')}
+                href="#live-demo"
+                onClick={(e) => handleNavClick(e, '#live-demo')}
                 className="inline-flex items-center justify-center bg-accent text-primary px-8 py-4 rounded-full font-medium hover:bg-accent/90 transition-all duration-200"
               >
                 {siteContent.hero.ctaPrimary}
