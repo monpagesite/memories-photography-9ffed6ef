@@ -218,38 +218,85 @@ export const siteContent = {
       {
         icon: "Camera",
         title: "Full-Day Coverage",
-        description: "Unlimited hours, unlimited photos. I'll stay as long as you're celebrating.",
-        pricing: "Custom pricing"
+        description: "Unlimited hours, unlimited photos. I'll stay as long as the party does, capturing every moment from setup to send-off.",
+        pricing: "Starting at $3,500"
       }
     ]
   },
 
+  booking: {
+    formTitle: "Book Your Event",
+    fields: {
+      name: "Full Name",
+      email: "Email Address",
+      phone: "Phone Number",
+      eventType: "Event Type",
+      eventDate: "Event Date",
+      message: "Tell me about your event"
+    },
+    eventTypes: [
+      "Wedding",
+      "Corporate Event",
+      "Birthday Party",
+      "Anniversary",
+      "Other"
+    ],
+    submitButton: "Send Inquiry"
+  },
+
   about: {
-    headline: "Hi, I'm Alex",
-    subheadline: "Event photographer, tech enthusiast, instant gratification enabler",
+    headline: "Meet the photographer",
+    subheadline: "Real moments, delivered in real time",
     story: [
-      "I've been shooting events for 8 years, and I got tired of hearing the same thing: 'When will the photos be ready?' Weddings would end, parties would wrap up, and guests would wait weeks to relive the night.",
-      "So I built a system that changes that. Now, before your event is even over, your guests are already scrolling through photos on their phones, sharing their favorites, and downloading memories in real-time.",
-      "It's not magic—it's just good gear, solid workflow, and a belief that you shouldn't have to wait to celebrate twice."
+      "I started Memories Photography because I was tired of the traditional model—shoot an event, disappear for weeks, then deliver a gallery nobody remembers to check.",
+      "Now I specialize in live event coverage. As I capture your celebration, photos appear in a shared gallery your guests can access on their phones. No waiting, no wondering how the photos turned out.",
+      "Every event is different, but my promise is always the same: authentic moments, delivered instantly, so you can relive the magic while it's still fresh."
     ],
     stats: [
       { number: "500+", label: "Events covered" },
-      { number: "50K+", label: "Photos delivered" },
-      { number: "<15min", label: "Avg. upload time" }
+      { number: "150K+", label: "Photos delivered" },
+      { number: "4.9★", label: "Client rating" }
     ],
     image: {
-      url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      alt: "Alex, event photographer"
+      url: "https://images.unsplash.com/photo-1554048612-b6a482bc67e5?auto=format&fit=crop&w=800&q=80",
+      alt: "Photographer at work during an event"
     }
   },
 
+  testimonials: [
+    {
+      quote: "Having our wedding photos appear live on a gallery our guests could access? Absolute game-changer. People were sharing favorites before the reception even ended.",
+      author: "Sarah & James Mitchell",
+      role: "Wedding, December 2024",
+      rating: 5
+    },
+    {
+      quote: "Our corporate gala photos were available to attendees before they even left the venue. The PR team was ecstatic.",
+      author: "David Chen",
+      role: "Director of Events, TechCorp",
+      rating: 5
+    },
+    {
+      quote: "My daughter's sweet sixteen photos were on the gallery before the cake was cut. Every parent was raving about it!",
+      author: "Maria Rodriguez",
+      role: "Birthday Celebration",
+      rating: 5
+    },
+    {
+      quote: "Professional, fast, and the live gallery concept blew our minds. We'll never go back to traditional event photography.",
+      author: "Emily & Tom Parker",
+      role: "Anniversary Celebration",
+      rating: 5
+    }
+  ],
+
   contact: {
-    headline: "Let's work together",
-    subtext: "Ready to give your guests instant access to their event photos?",
-    email: "alex@memoriesphotography.com",
-    phone: "+1 (555) 123-4567",
-    instagram: "@memorieslive",
-    instagramUrl: "https://instagram.com/memorieslive",
+    headline: "Let's make it happen",
+    subtext: "Ready to bring live photography to your next event? Get in touch.",
+    email: "hello@memoriesphotography.com",
+    phone: "+1 (555) 247-8900",
+    instagram: "@memories.photo",
+    instagramUrl: "https://instagram.com/memories.photo",
     instagramPreview: [
       "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&q=80",
       "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=400&q=80",
@@ -258,39 +305,17 @@ export const siteContent = {
     ]
   },
 
-  testimonials: [
-    {
-      quote: "Our wedding guests were posting photos to Instagram before we even cut the cake. It was incredible to see the energy in real-time. Alex's system is a game-changer.",
-      author: "Sarah & Mike",
-      role: "Wedding, November 2024",
-      rating: 5
-    },
-    {
-      quote: "We hired Alex for our corporate gala and the live gallery was a huge hit. Attendees loved being able to download photos immediately.",
-      author: "Jennifer Chen",
-      role: "Marketing Director, TechCorp",
-      rating: 5
-    },
-    {
-      quote: "My 50th birthday party photos were online before the night ended. My friends couldn't believe it. So worth it!",
-      author: "David Rodriguez",
-      role: "Birthday celebration",
-      rating: 5
-    }
-  ],
-
   footer: {
     navLinks: [
-      { label: "Live Demo", href: "#live-demo" },
-      { label: "Recent Work", href: "#work" },
+      { label: "Gallery", href: "#gallery" },
       { label: "Services", href: "#services" },
       { label: "About", href: "#about" },
       { label: "Contact", href: "#contact" }
     ],
     socialLinks: [
-      { platform: "Instagram", icon: "Instagram", url: "https://instagram.com/memorieslive" },
-      { platform: "Facebook", icon: "Facebook", url: "https://facebook.com/memorieslive" },
-      { platform: "Twitter", icon: "Twitter", url: "https://twitter.com/memorieslive" }
+      { platform: "Instagram", icon: "Instagram", url: "https://instagram.com/memories.photo" },
+      { platform: "Facebook", icon: "Facebook", url: "https://facebook.com/memoriesphotography" },
+      { platform: "Twitter", icon: "Twitter", url: "https://twitter.com/memories_photo" }
     ],
     copyright: "© 2024 Memories Photography. All rights reserved."
   }
