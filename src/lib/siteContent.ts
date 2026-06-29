@@ -218,79 +218,80 @@ export const siteContent = {
       {
         icon: "Camera",
         title: "Full-Day Coverage",
-        description: "Unlimited hours, unlimited photos. I'll stay as long as your event goes, capturing everything.",
+        description: "Unlimited hours, unlimited photos. I'll stay as long as you're celebrating.",
         pricing: "Custom pricing"
       }
     ]
   },
 
-  booking: {
-    formTitle: "Book your event",
-    fields: {
-      name: "Your name",
-      email: "Email address",
-      phone: "Phone number",
-      eventType: "Event type",
-      eventDate: "Event date",
-      message: "Tell me about your event"
-    },
-    eventTypes: ["Wedding", "Corporate Event", "Birthday", "Anniversary", "Other"],
-    submitButton: "Send inquiry →",
-    note: "I'll respond within 24 hours with availability and a custom quote."
-  },
-
   about: {
     headline: "Hi, I'm Alex",
-    subheadline: "Live event photographer",
+    subheadline: "Event photographer, tech enthusiast, instant gratification enabler",
     story: [
-      "I've spent the last eight years photographing over 300 events, and one thing always frustrated me: couples waiting weeks to see their wedding photos, companies missing the social media window for their launch event, families losing momentum after a celebration.",
-      "So I built a system that changes that. I shoot on pro gear with built-in wireless sync, upload to a custom gallery platform in real-time, and deliver a shareable link before your event even ends.",
-      "Now your guests leave talking about the photos they just downloaded. Your social team posts highlights the same night. Your memories are instant."
+      "I've been shooting events for 8 years, and I got tired of hearing the same thing: 'When will the photos be ready?' Weddings would end, parties would wrap up, and guests would wait weeks to relive the night.",
+      "So I built a system that changes that. Now, before your event is even over, your guests are already scrolling through photos on their phones, sharing their favorites, and downloading memories in real-time.",
+      "It's not magic—it's just good gear, solid workflow, and a belief that you shouldn't have to wait to celebrate twice."
     ],
     stats: [
-      { number: "300+", label: "Events Covered" },
-      { number: "75k+", label: "Photos Delivered Live" },
-      { number: "< 5 min", label: "Average Upload Time" }
+      { number: "500+", label: "Events covered" },
+      { number: "50K+", label: "Photos delivered" },
+      { number: "<15min", label: "Avg. upload time" }
     ],
     image: {
       url: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=800&q=80",
-      alt: "Professional photographer Alex"
+      alt: "Alex, event photographer"
     }
+  },
+
+  contact: {
+    headline: "Let's work together",
+    subtext: "Ready to give your guests instant access to their event photos?",
+    email: "alex@memoriesphotography.com",
+    phone: "+1 (555) 123-4567",
+    instagram: "@memorieslive",
+    instagramUrl: "https://instagram.com/memorieslive",
+    instagramPreview: [
+      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?auto=format&fit=crop&w=400&q=80",
+      "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=400&q=80"
+    ]
   },
 
   testimonials: [
     {
-      quote: "Our guests were viewing photos on their phones before we even cut the cake. It was incredible seeing the excitement in real-time.",
-      author: "Sarah & Michael",
-      role: "Wedding, December 2024",
+      quote: "Our wedding guests were posting photos to Instagram before we even cut the cake. It was incredible to see the energy in real-time. Alex's system is a game-changer.",
+      author: "Sarah & Mike",
+      role: "Wedding, November 2024",
       rating: 5
     },
     {
-      quote: "We needed same-day content for our product launch, and Alex delivered. Photos were live before the keynote ended.",
-      author: "Jennifer Park",
-      role: "Tech Conference, November 2024",
+      quote: "We hired Alex for our corporate gala and the live gallery was a huge hit. Attendees loved being able to download photos immediately.",
+      author: "Jennifer Chen",
+      role: "Marketing Director, TechCorp",
       rating: 5
     },
     {
-      quote: "My mom's 60th birthday party was so much more fun because everyone could see the photos instantly. Best decision we made.",
-      author: "David Chen",
-      role: "Birthday Party, October 2024",
+      quote: "My 50th birthday party photos were online before the night ended. My friends couldn't believe it. So worth it!",
+      author: "David Rodriguez",
+      role: "Birthday celebration",
       rating: 5
     }
   ],
 
-  contact: {
-    headline: "Let's capture your event",
-    subtext: "Available for bookings throughout the year. Get in touch to check availability.",
-    email: "hello@memoriesphotography.com",
-    phone: "+1 (555) 123-4567",
-    instagram: "@memories.live",
-    instagramUrl: "https://instagram.com/memories.live",
-    instagramPreview: [
-      "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?auto=format&fit=crop&w=400&q=80",
-      "https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=400&q=80"
-    ]
+  footer: {
+    navLinks: [
+      { label: "Live Demo", href: "#live-demo" },
+      { label: "Recent Work", href: "#work" },
+      { label: "Services", href: "#services" },
+      { label: "About", href: "#about" },
+      { label: "Contact", href: "#contact" }
+    ],
+    socialLinks: [
+      { platform: "Instagram", icon: "Instagram", url: "https://instagram.com/memorieslive" },
+      { platform: "Facebook", icon: "Facebook", url: "https://facebook.com/memorieslive" },
+      { platform: "Twitter", icon: "Twitter", url: "https://twitter.com/memorieslive" }
+    ],
+    copyright: "© 2024 Memories Photography. All rights reserved."
   }
 };

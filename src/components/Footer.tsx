@@ -30,7 +30,7 @@ export const Footer: React.FC = () => {
               {siteContent.brand.name}
             </h2>
             <p className="text-text-muted leading-relaxed max-w-sm">
-              {siteContent.footer.tagline}
+              {siteContent.brand.fullTagline}
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-4">
             <h3 className="text-light font-semibold mb-4">Quick Links</h3>
             <nav className="space-y-3">
-              {siteContent.footer.navLinks.map((link) => (
+              {siteContent.footer?.navLinks?.map((link) => (
                 <a
                   key={link.href}
                   href={link.href}
@@ -55,7 +55,7 @@ export const Footer: React.FC = () => {
           <div className="md:col-span-3">
             <h3 className="text-light font-semibold mb-4">Follow</h3>
             <div className="flex gap-3">
-              {siteContent.footer.socialLinks.map((social) => {
+              {siteContent.footer?.socialLinks?.map((social) => {
                 const Icon = iconMap[social.icon];
                 return (
                   <a
@@ -77,7 +77,7 @@ export const Footer: React.FC = () => {
         {/* Bottom Bar */}
         <div className="pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-text-muted text-sm">
-            {siteContent.footer.copyright}
+            {siteContent.footer?.copyright || `© ${new Date().getFullYear()} ${siteContent.brand.name}. All rights reserved.`}
           </p>
           <div className="flex gap-6 text-sm">
             <a
